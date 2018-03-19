@@ -3,7 +3,7 @@ Primeira atividade da disciplina LP1.
 
 Fornece ao usuário três funcionalidades:
 
-Função 1 -- De acordo com o salário e despesas mensais fornecidos pelo mesmo, descobrir aproximadamente quantos anos de poupança deve-se ter para se tornar milionário.
+Função 1 -- De acordo com o salário e despesas mensais fornecidos pelo mesmo, descobrir aproximadamente quantos anos inteiros de poupança devem passar para se tornar um milionário.
 
 Função 2 -- O usuário entra dez valores inteiros e o programa realiza um relatório dos valores citados, checa se existem valores repetidos e quantas vezes cada um apareceu.
 
