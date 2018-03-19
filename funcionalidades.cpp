@@ -3,12 +3,20 @@
 
 using namespace std;
 
+/* -----------Funcao 1: 
+     
+  ---- Entra os parametros salario e despesas, declara o inteiro meses e o double sobra, cria um laco for(sobra inicialmente recebe o valor
+da diferenca entre salario e despesas, com ate o maximo de um milhao, incrementando essa mesma diferenca a cada ciclo), que aumenta a variavel
+meses em uma unidade a cada ciclo. Ao fim do for, retorna para main o valor de meses dividido por 12, para mostrar aproximadamente o numero de
+anos necessarios.
+*/
+
 int tempo_em_anos(double salario,double despesas){
 
     int meses = 0;
     double sobra = salario - despesas;
 
-    for(sobra = (salario - despesas); sobra <= 1000000; sobra += (salario - despesas))
+    for(sobra = (salario - despesas); sobra <= 1000000; sobra += (salario - despesas)) 
       meses++;
 
     return meses / 12;
@@ -68,6 +76,16 @@ void numero_de_vezes(int valores[10]){
 
 }
 
+/* ----------- Funcao 3:
+
+   ---- Entra o parametro inteiro reais, declara 6 variaveis auxiliares. Para decompor em notas de 100, divide reais por 100. 
+   ---- Auxiliar recebe o resto da divisao de reais por 100 e para decompor em notas de 50, divide auxiliar(com o novo valor) por 50. 
+   ---- Aux2 recebe o resto da divisao de auxiliar por 50 e para decompor em notas de 20, divide aux2(com o novo valor) por 20. 
+   ---- Aux3 recebe o resto da divisao de aux2 por 20 e para decompor em notas de 10, divide aux3(com o novo valor) por 10. 
+   ---- Aux4 recebe o resto da divisao de aux3 por 10 e para decompor em notas de 5, divide aux4(com o novo valor) por 5. 
+   ---- Aux5 recebe o resto da divisao de aux4 por 5 e para decompor em notas de 2, divide aux5(com o novo valor)por 2. 
+   ---- Aux6 recebe o resto da divisao de aux5 por 2 e para decompor em notas de 1, divide aux6(com o novo valor) por 1. 
+*/
 
 void decomposicao_em_notas(int reais){
 
