@@ -1,7 +1,7 @@
 # Projeto-1-LP1-GitHub
 Primeira atividade da disciplina LP1.
 
-Fornece ao usuário três funcionalidade:
+Fornece ao usuário três funcionalidades:
 
 Função 1 -- De acordo com o salário e despesas mensais fornecidos pelo mesmo, descobrir aproximadamente quantos anos de poupança deve-se ter para se tornar milionário.
 
