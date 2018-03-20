@@ -23,7 +23,7 @@ int tempo_em_anos(double salario,double despesas){
 }
 
 
-struct numero_relatorio{
+struct numero_relatorio{ //Struct para auxiliar na enumeracao dos numeros digitados e quantificar quantas vezes cada um apareceu.
     int numero,vezes;
 };
 
