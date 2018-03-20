@@ -12,7 +12,7 @@ int main(){
     cout << "Digite seu salario e despesas mensais, respectivamente: " << endl;
     cin >> salario >> despesas;
     anos = tempo_em_anos(salario,despesas);
-    cout << "Numero de ano(s) necessario(s) aproximadamente para se tornar milionario eh de: " << anos << endl;
+    cout << "Numero de ano(s) inteiros necessario(s) aproximadamente para se tornar milionario eh de: " << anos << endl;
 
     //Declara tres variaveis, o usuario entra os valores salario e despesas, chama a funcao tempo_em_anos, atribuindo o valor para a variavel anos e imprime na tela o valor de anos.
 
