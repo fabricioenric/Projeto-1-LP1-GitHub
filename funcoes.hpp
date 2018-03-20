@@ -1,7 +1,7 @@
 #ifndef FUNCOES_HPP_INCLUDED
 #define FUNCOES_HPP_INCLUDED
 
-//Prototipo das funcoes:
+//Prototipo das funcoes 1, 2 e 3:
 
 int tempo_em_anos(double salario,double despesas); //Função para descobrir quantos anos serão necessários para alguém se tornar milionário, de acordo com o ganho e o gasto mensal.
 
