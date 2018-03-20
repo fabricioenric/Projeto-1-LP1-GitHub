@@ -13,4 +13,6 @@ Função 3 -- Decompor um determinado valor, em reais, em notas de 100, 50, 20, 
 
 --- Cin e cout da biblioteca iostream, laços de repetição for, Arrays, registro(struct), vector e iterator da biblioteca vector, modularizado. 
 
+--- Utilizei o Codeblocks.
+
 --- Linguagem C++.  
