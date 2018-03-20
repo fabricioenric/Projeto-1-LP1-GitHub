@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1521546546 source:c:\users\fabio\desktop\final\lp1\main.cpp
+	<iostream>
+	<vector>
+	"funcoes.hpp"
+	"funcionalidades.cpp"
+
+1521546614 c:\users\fabio\desktop\final\lp1\funcoes.hpp
+
+1521546601 c:\users\fabio\desktop\final\lp1\funcionalidades.cpp
+	<iostream>
+	"funcoes.hpp"
+
